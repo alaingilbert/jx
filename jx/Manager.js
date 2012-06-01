@@ -2,9 +2,7 @@ goog.provide('fx.Manager');
 
 
 
-/**
- * @constructor
- */
+/** * @constructor */
 fx.Manager = function() {
   this.objs = [];
 };
@@ -21,9 +19,7 @@ fx.Manager.prototype.update = function(deltaTime) {
 };
 
 
-/**
- *
- */
+/** */
 fx.Manager.prototype.render = function() {
   for (var i = this.objs.length; i > 0; i--) {
     var obj = this.objs[i];

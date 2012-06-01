@@ -14,13 +14,9 @@ jx.Object2D = function() {
 };
 
 
-/**
- *
- */
+/** */
 jx.Object2D.prototype.render = function() { };
 
 
-/**
- *
- */
+/** */
 jx.Object2D.prototype.update = function() { };
