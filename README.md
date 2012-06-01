@@ -29,3 +29,9 @@ gjslint -r ./ --strict
 ```
 ./deploy
 ```
+
+# Tests
+
+```
+brew install google-js-test
+```
