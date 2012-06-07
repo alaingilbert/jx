@@ -1,8 +1,0 @@
-../closure-library/closure/bin/build/closurebuilder.py \
-  --root=../closure-library/ \
-  --root=./ \
-  --namespace="Game" \
-  --output_mode=compiled \
-  --compiler_jar=../compiler.jar \
-  --compiler_flags="--compilation_level=ADVANCED_OPTIMIZATIONS" \
-  > compiled.js
