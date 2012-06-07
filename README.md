@@ -10,7 +10,7 @@ git clone git@github.com:alaingilbert/jx.git project
 # Dependency file
 
 ```
-./depswritter
+./bin/depswritter
 ```
 
 # Lint
@@ -21,17 +21,11 @@ sudo easy_install http://closure-linter.googlecode.com/files/closure_linter-late
 
 
 ```
-gjslint -r ./ --strict
+gjslint -r ./lib/ --strict
 ```
 
 # Compiling
 
 ```
-./deploy
-```
-
-# Tests
-
-```
-brew install google-js-test
+./bin/deploy
 ```
