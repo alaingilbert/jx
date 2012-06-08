@@ -2,3 +2,4 @@ DS_Store
 *.swp
 deps.js
 compiled.js
+node_modules/
