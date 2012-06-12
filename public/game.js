@@ -13,21 +13,20 @@ Game = function() {};
  *
  */
 Game.prototype.init = function() {
-  console.log('INIT');
-
   jx.Core.init('canvas');
 
 
   var rectManager = new game.RectManager();
+
   jx.Core.managers_.push(rectManager);
 
-  jx.Core.start();
 
-  rectManager.push(new game.Rect({ x: 0, y: 0, w: 10, h: 10 }));
-  rectManager.push(new game.Rect({ x: 0, y: 0, w: 10, h: 10 }));
-  rectManager.push(new game.Rect({ x: 0, y: 0, w: 10, h: 10 }));
-  rectManager.push(new game.Rect({ x: 0, y: 0, w: 10, h: 10 }));
-  rectManager.push(new game.Rect({ x: 0, y: 0, w: 10, h: 10 }));
+  for (var i = 0; i < 10; i++) {
+    rectManager.push(new game.Rect({ x: 0, y: 0, w: 10, h: 10 }));
+  }
+
+
+  jx.Core.start();
 };
 
 Game = new Game();
