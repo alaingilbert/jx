@@ -3,3 +3,4 @@ DS_Store
 deps.js
 compiled.js
 node_modules/
+vendor/
