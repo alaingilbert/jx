@@ -1,14 +1,19 @@
 <!doctype html>
 <html>
 <head>
-   <script src="../vendor/google-closure-library/closure/goog/base.js"></script>
-   <script src="deps.js"></script>
-   <script src="game.js"></script>
+  <script src="../vendor/google-closure-library/closure/goog/base.js"></script>
+  <script src="deps.js"></script>
+  <script>
+    goog.require('Game');
+  </script>
 </head>
 <body>
 
 <canvas id="canvas" width="800" height="600"></canvas>
-<script type="text/javascript">Game.init();</script>
+<script type="text/javascript">
+Game = new Game();
+Game.init('canvas');
+</script>
 
 </body>
 </html>
