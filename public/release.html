@@ -6,7 +6,10 @@
 <body>
 
 <canvas id="canvas" width="800" height="600"></canvas>
-<script type="text/javascript">Game.init();</script>
+<script type="text/javascript">
+var Game = new GameEngine();
+Game.init('canvas');
+</script>
 
 </body>
 </html>
